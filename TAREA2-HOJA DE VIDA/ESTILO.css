@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+    background-color: #cbcbcb;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-content {
+    display: flex;
+}
+
+/* Columna izquierda (datos personales) */
+.left-column {
+    width: 35%;
+    background-color: #3A3A3A ; /* Color de fondo gris oscuro */
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+    position: relative;
+    background-image: linear-gradient(to bottom right, #515151 50%, #3A3A3A   50%); /* Degradado de esquina a esquina */
+    background-size: 100% 100%; /* Abarca toda la columna */
+    background-repeat: no-repeat;
+    height: 100vh;  /* Ocupa toda la altura del viewport */
+}
+
+.personal-info .photo img {
+    width: 150px;
+    height: 180px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.personal-info h1 {
+    margin: 10px 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.personal-info h2 {
+    font-size: 20px;
+    color: rgb(241, 120, 0);
+    text-align: center;
+}
+
+.personal-info p i {
+    margin-right: 10px; /* Espacio entre el icono y el texto */
+    color: rgb(241, 120, 0); /* Color del icono */
+    font-size: 18px; /* Tamaño del icono */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    background-image: url('VECTOR\ 1.jpg');
+    background-size: cover; /* Hace que la imagen cubra toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-attachment: fixed; /* Fija la imagen mientras haces scroll */
+}
+
+/* Columna derecha (contenido principal) */
+.right-column {
+    width: 70%;
+}
+
+.profile, .work-experience, .education, .training, .references {
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.job h4 {
+    font-size: 18px;
+    color: rgb(241, 120, 0);
+}
+
+/* Tablas para las referencias personales */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #b9b9b9;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #424242;
+    color: white;
+}
