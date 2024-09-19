@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>BUCLE-ITERACIONES-WEB</title>
+        <link rel="stylesheet" href="ESTILO.css">
+        <script>
+            function ITERACIONES(){
+                let num1 = parseFloat(document.getElementById("num1").value);
+                let num2 = parseFloat(document.getElementById("num2").value);
+                for (let i = 1; i <= 5; i++) {
+                    switch(i) {
+                        case 1:
+                            alert("RESULTADO ITERACION 1 SUMA: " + num1 + " + " + num2 + " = " + (num1 + num2));
+                            break;
+                        case 2:
+                            alert("RESULTADO ITERACION 2 RESTA: " + num1 + " - " + num2 + " = " + (num1 - num2));
+                            break;
+                        case 3:
+                            alert("RESULTADO ITERACION 3 MULTIPLICAION: " + num1 + " * " + num2 + " = " + (num1 * num2));
+                            break;
+                        case 4:
+                            if (num2 !== 0) {
+                                alert("RESULTADO ITERACION 4 DIVISION: " + num1 + " / " + num2 + " = " + (num1 / num2));
+                            } else {
+                                alert("RESULTADO ITERACION 4 DIVISION: " + "IMPOSIBLE DIVISION POR CERO");
+                            }
+                            break;
+                        case 5:
+                            alert("RESULTADO ITERACION 5 MOD: " + num1 + " % " + num2 + " = " + (num1 % num2));
+                            break;
+                    }
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div class="Bordes">
+            <div class="Encabezado">
+                <header>
+                    <h1>BUCLE CON ITERACIONES</h1>
+                </header>
+            </div>
+
+            <div class="Texto">
+                <label>INGRESA EL PRIMER NUMERO</label>
+                <input name="num1" id="num1"><br><br>
+            </div><label>
+
+            <div class="Texto">
+                <label>INGRESA EL SEGUNDO NUMERO</label>
+                <input name="num2" id="num2"><br><br> 
+            </div>
+
+            <div class="Texto">
+                <button class="Boton" onclick="ITERACIONES()">REALIZAR OPERACIONES</button>
+            </div>
+        </div>
+    </body>
+</html>

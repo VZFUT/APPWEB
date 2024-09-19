@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #c0c0c0;
+    background-image: url('VECTOR\ 1.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.Bordes {
+    background-color: #fff;
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 70%;
+    padding: 20px;
+}
+
+.Encabezado {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Texto {
+    margin-bottom: 15px;
+}
+
+.Texto label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.Texto input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #002a7f;
+    font-size: 16px;
+}
+
+.Boton {
+    width: 100%;
+    padding: 15px;
+    background-color: #002a7f;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+}
