@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  background-image: url('../IMAGENES/ULEAMFONDO.jpg'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+}
+
+/* Estilo para el contenedor del header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+}
+
+/* Alinear el título y la imagen */
+.header-Izquierda {
+  display: flex;
+  align-items: center;
+}
+
+.header-Derecha {
+  margin-left: 20px;
+}
+
+.header-logo {
+  width: 200px;  
+  height: auto;
+  margin-left: 10px;
+}
+
+/* Estilo del título */
+h1 {
+  margin: 0;
+  font-size: 24px;
+  display: inline-block;
+}
+
+
+/* Estilos para los botones */
+.BOTONES {
+  margin-left: auto;
+}
+
+.BOTONES .BOTONES {
+  display: inline-block;
+  background-color: #4CAF50; 
+  color: white; 
+  padding: 10px 20px; 
+  text-decoration: none; 
+  border-radius: 5px; 
+  margin-left: 10px; 
+  transition: background-color 0.3s; 
+}
+
+.BOTONES .BOTONES:hover {
+  background-color: #45a049; 
+}
+
+/* Alinear el contenedor de los botones a la derecha */
+.BOTONES {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.CONTENEDOR, .CAJA_LIBROS {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff9f;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+
+.CAJA_LIBROS {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.LIBROS {
+  border: 1px solid #dddddd;
+  padding: 10px;
+  background-color: #ffffff7e;
+  border-radius: 10px;
+  height: 230px;
+  width: 450;
+}
+
+.MENSAJE_ERROR {
+  color: red;
+  margin-top: 10px;
+}
+
+/* Apariencia del botón LEER */
+.BOTON_LEER {
+  display: inline-block;
+  background-color: #4CAF50; 
+  color: white; 
+  padding: 10px 20px; 
+  text-decoration: none; 
+  border-radius: 5px; 
+  transition: background-color 0.3s;
+  margin-top: 10px; 
+  
+}
+
+/* Cambiar color al pasar el mouse */
+.BOTON_LEER:hover {
+  background-color: #45a049; 
+}
